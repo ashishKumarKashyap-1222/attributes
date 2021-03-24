@@ -4805,173 +4805,174 @@
       "values": []
     }
   },
-
-  "age_group": {
-    "code": "age_group",
-    "name": "age_group",
-    "description": "The specific age group that your item is intended for.",
-    "required_level": "recommended",
-    "type": "select",
-    "values": [
-      "adult",
-      "all ages",
-      "teen",
-      "kids",
-      "toddler",
-      "infant",
-      "newborn"
-    ]
-  },
-  "color": {
-    "code": "color",
-    "name": "color",
-    "description": "Color of item. Use one or more words to describe the color, not a hex code. Sample value: Royal Blue.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "gender": {
-    "code": "gender",
-    "name": "gender",
-    "description": "The specific gender that your item is intended for.",
-    "required_level": "recommended",
-    "type": "select",
-    "values": ["Male", "Female", "Unisex"]
-  },
-  "material": {
-    "code": "material",
-    "name": "material",
-    "description": "The primary material(s) of your item.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "size": {
-    "code": "size",
-    "name": "size",
-    "description": "Size as it appears on the label. Includes generic sizes, such as Small and One Size. Includes numeric sizes, such as 2, 4. Sample Values: Small, Medium, Large, \"2\", 4, 6, One Size.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "pattern": {
-    "code": "pattern",
-    "name": "pattern",
-    "description": "The recurring design, pattern, or motif on your item.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "shoe_width": {
-    "code": "shoe_width",
-    "name": "shoe_width",
-    "description": "Width of shoes. Allowed values: A, B, EE, Narrow, Wide.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "style": {
-    "code": "style",
-    "name": "style",
-    "description": "Style(s) of the item. Sample Values: Maxi, Boyfriend, Braided.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "brand": {
-    "code": "brand",
-    "name": "brand",
-    "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
-    "required_level": "recommended",
-    "type": "text",
-    "values": []
-  },
-  "additional_features": {
-    "code": "additional_features",
-    "name": "additional_features",
-    "description": "Special features related to your item that might be important for buyers.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "character": {
-    "code": "character",
-    "name": "character",
-    "description": "Particular character, person, or entity that the item represents or is associated with.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "closure": {
-    "code": "closure",
-    "name": "closure",
-    "description": "Type of fastener used to close your item. Allowed values: Zipper, Button, Snap, Drawstring.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "fabric_care_instructions": {
-    "code": "fabric_care_instructions",
-    "name": "fabric_care_instructions",
-    "description": "Specific care instructions for how the fabric of your item should be cleaned. This can be found on the label of the item.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "heel_height": {
-    "code": "heel_height",
-    "name": "heel_height",
-    "description": "Numeric height of the heel on the shoes. Allowed values: 0.5 in, 2 in, 7 cm, 11 cm.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "heel_style": {
-    "code": "heel_style",
-    "name": "heel_style",
-    "description": "Style of heel on the shoes. Allowed values: Wedge, Block, Stiletto, Kitten.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "occasion": {
-    "code": "occasion",
-    "name": "occasion",
-    "description": "Type of special occasion(s) for which your item is intended or specialized. Allowed values: Bridesmaid, Wedding, Graduation, Halloween, Work.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "shoe_type": {
-    "code": "shoe_type",
-    "name": "shoe_type",
-    "description": "Type of shoes. Allowed values: Flats, Boots, Heels, Sandals, Slippers, Athletic Shoes, Fashion Sneakers.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "size_system": {
-    "code": "size_system",
-    "name": "size_system",
-    "description": "Size system used by your item; usually corresponds to country. Sample Values: US, UK, EU, \"DE\", FR, CN, IT, BR, MEX, AU.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "sport": {
-    "code": "sport",
-    "name": "sport",
-    "description": "Particular sport or activity for which your item is intended. Multiple values accepted. Allowed values: Tennis, Soccer, Hiking, Running, Yoga, Basketball.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
-  },
-  "standard_features": {
-    "code": "standard_features",
-    "name": "standard_features",
-    "description": "Standard features related to the item.Sample values: Orthopedic, Water Resistant.",
-    "required_level": "optional",
-    "type": "text",
-    "values": []
+  "shoes": {
+    "age_group": {
+      "code": "age_group",
+      "name": "age_group",
+      "description": "The specific age group that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": [
+        "adult",
+        "all ages",
+        "teen",
+        "kids",
+        "toddler",
+        "infant",
+        "newborn"
+      ]
+    },
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Color of item. Use one or more words to describe the color, not a hex code. Sample value: Royal Blue.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "The primary material(s) of your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "size": {
+      "code": "size",
+      "name": "size",
+      "description": "Size as it appears on the label. Includes generic sizes, such as Small and One Size. Includes numeric sizes, such as 2, 4. Sample Values: Small, Medium, Large, \"2\", 4, 6, One Size.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "pattern": {
+      "code": "pattern",
+      "name": "pattern",
+      "description": "The recurring design, pattern, or motif on your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "shoe_width": {
+      "code": "shoe_width",
+      "name": "shoe_width",
+      "description": "Width of shoes. Allowed values: A, B, EE, Narrow, Wide.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "style": {
+      "code": "style",
+      "name": "style",
+      "description": "Style(s) of the item. Sample Values: Maxi, Boyfriend, Braided.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "brand": {
+      "code": "brand",
+      "name": "brand",
+      "description": "Brand name, unique manufacturer part number (MPN), or Global Trade Item Number (GTIN) of the item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "closure": {
+      "code": "closure",
+      "name": "closure",
+      "description": "Type of fastener used to close your item. Allowed values: Zipper, Button, Snap, Drawstring.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "fabric_care_instructions": {
+      "code": "fabric_care_instructions",
+      "name": "fabric_care_instructions",
+      "description": "Specific care instructions for how the fabric of your item should be cleaned. This can be found on the label of the item.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "heel_height": {
+      "code": "heel_height",
+      "name": "heel_height",
+      "description": "Numeric height of the heel on the shoes. Allowed values: 0.5 in, 2 in, 7 cm, 11 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "heel_style": {
+      "code": "heel_style",
+      "name": "heel_style",
+      "description": "Style of heel on the shoes. Allowed values: Wedge, Block, Stiletto, Kitten.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "occasion": {
+      "code": "occasion",
+      "name": "occasion",
+      "description": "Type of special occasion(s) for which your item is intended or specialized. Allowed values: Bridesmaid, Wedding, Graduation, Halloween, Work.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "shoe_type": {
+      "code": "shoe_type",
+      "name": "shoe_type",
+      "description": "Type of shoes. Allowed values: Flats, Boots, Heels, Sandals, Slippers, Athletic Shoes, Fashion Sneakers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "size_system": {
+      "code": "size_system",
+      "name": "size_system",
+      "description": "Size system used by your item; usually corresponds to country. Sample Values: US, UK, EU, \"DE\", FR, CN, IT, BR, MEX, AU.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "sport": {
+      "code": "sport",
+      "name": "sport",
+      "description": "Particular sport or activity for which your item is intended. Multiple values accepted. Allowed values: Tennis, Soccer, Hiking, Running, Yoga, Basketball.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "standard_features": {
+      "code": "standard_features",
+      "name": "standard_features",
+      "description": "Standard features related to the item.Sample values: Orthopedic, Water Resistant.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    }
   }
 }
