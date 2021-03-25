@@ -1,5 +1,5 @@
 {
-  "nursery": {
+  "Nursery": {
     "color": {
       "code": "color",
       "name": "color",
@@ -193,7 +193,7 @@
       "values": []
     }
   },
-  "toys": {
+  "Toys": {
     "age_range": {
       "code": "age_range",
       "name": "age_range",
@@ -307,7 +307,7 @@
       "values": []
     }
   },
-  "baby feeding": {
+  "Baby Feeding": {
     "age_range": {
       "code": "age_range",
       "name": "age_range",
@@ -461,7 +461,7 @@
       "values": []
     }
   },
-  "baby transport": {
+  "Baby Transport": {
     "color": {
       "code": "color",
       "name": "color",
@@ -639,7 +639,7 @@
       "values": []
     }
   },
-  "diapering and potty training": {
+  " Diapering & Potty Training": {
     "age_range": {
       "code": "age_range",
       "name": "age_range",
@@ -1154,7 +1154,7 @@
       "values": []
     }
   },
-  "clothing accessories": {
+  "computers components": {
     "age_group": {
       "code": "age_group",
       "name": "age_group",
@@ -2367,7 +2367,7 @@
       "values": []
     }
   },
-  "computers laptops and tablets": {
+  " Computers & Tables": {
     "model": {
       "code": "model",
       "name": "model",
@@ -2585,7 +2585,7 @@
       "values": []
     }
   },
-  "video games and console": {
+  " Video Game Consoles & Video Games": {
     "model": {
       "code": "model",
       "name": "model",
@@ -3103,7 +3103,7 @@
       "values": []
     }
   },
-  "printers scanners and fax machine": {
+  "Printers & Scanners": {
     "model": {
       "code": "model",
       "name": "model",
@@ -3225,7 +3225,7 @@
       "values": []
     }
   },
-  "electronic accessories and cables": {
+  " Accessories": {
     "color": {
       "code": "color",
       "name": "color",
