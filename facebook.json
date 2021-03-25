@@ -1,822 +1,820 @@
 {
-  "BabyProducts": {
-    "nursery": {
-      "color": {
-        "code": "color",
-        "name": "color",
-        "description": "Primary color(s) of your item. Allowed 'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "material": {
-        "code": "material",
-        "name": "material",
-        "description": "The primary material(s) of your item.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "size": {
-        "code": "size",
-        "name": "size",
-        "description": "Size as it appears on the label. Includes generic sizes, such as Small and One Size. Includes numeric sizes, such as 2, 4. Sample 'values': Small, Medium, Large, \"2\",4,6, One Size.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "decor_style": {
-        "code": "decor_style",
-        "name": "decor_style",
-        "description": "Decorative style in which the product was made. Allowed 'values': Bohemian, Contemporary, Industrial, Mid-Century, Modern, Rustic, Vintage.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "gender": {
-        "code": "gender",
-        "name": "gender",
-        "description": "The specific gender that your item is intended for.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Male", "Female", "Unisex"]
-      },
-      "maximum_weight": {
-        "code": "maximum_weight",
-        "name": "maximum_weight",
-        "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "minimum_weight": {
-        "code": "minimum_weight",
-        "name": "minimum_weight",
-        "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_length": {
-        "code": "product_length",
-        "name": "product_length",
-        "description": "Length of the fully assembled product. Allowed 'values': 5 in,2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_width": {
-        "code": "product_width",
-        "name": "product_width",
-        "description": "Width of the fully assembled product. Allowed 'values': 5 in,2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_height": {
-        "code": "product_height",
-        "name": "product_height",
-        "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in,2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "additional_features": {
-        "code": "additional_features",
-        "name": "additional_features",
-        "description": "Special features related to your item that might be important for buyers.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "character": {
-        "code": "character",
-        "name": "character",
-        "description": "Particular character, person, or entity that the item represents or is associated with.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "comfort_level": {
-        "code": "comfort_level",
-        "name": "comfort_level",
-        "description": "Firmness or softness of a mattress. Allowed 'values': Extra Plush, Plush, Medium, Firm, Extra Firm, Adjustable.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "fabric_care_instructions": {
-        "code": "fabric_care_instructions",
-        "name": "fabric_care_instructions",
-        "description": "Specific care instructions for how the fabric of your item should be cleaned. This can be found on the label of the item.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "fill_material": {
-        "code": "fill_material",
-        "name": "fill_material",
-        "description": "Material(s) used to stuff the item usually in cushions, pillows, mattresses, and bean bags. Allowed 'values': Polyester, Foam, Latex, Down, Cotton.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "finish": {
-        "code": "finish",
-        "name": "finish",
-        "description": "External treatment to the product that usually includes a change in appearance or texture to the item. Commonly used for furniture include wood, metal and fabric. Allowed 'values': Natural/Unfinished, Walnut, Pewter, Antiqued.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "is_assembly_required": {
-        "code": "is_assembly_required",
-        "name": "is_assembly_required",
-        "description": "Indicates if the product arrives unassembled and must be put together before use.",
-        "required_level": "optional",
-        "type": "select",
-        "values": ["Yes", "No"]
-      },
-      "mattress_thickness": {
-        "code": "mattress_thickness",
-        "name": "mattress_thickness",
-        "description": "Measure from the bottom of the mattress to the crown. Allowed 'values': 12 in,15 in,30 cm,38 cm.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "number_of_drawers": {
-        "code": "number_of_drawers",
-        "name": "number_of_drawers",
-        "description": "Number of drawers included in the product. Allowed 'values': [2,4, 8]",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "number_of_shelves": {
-        "code": "number_of_shelves",
-        "name": "number_of_shelves",
-        "description": "Number of shelves included in the product. Allowed 'values': 2,4, 8.",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "pattern": {
-        "code": "pattern",
-        "name": "pattern",
-        "description": "Recurring design, pattern, or motif on your item. Allowed 'values': Plaid, Polka Dot, Gingham, Chevron.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "shape": {
-        "code": "shape",
-        "name": "shape",
-        "description": "General shape of the product. Often used to describe furniture and home furnishings. Allowed   'values': Rectangle, Square, Oval, Circle, Triangle.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "standard_features": {
-        "code": "standard_features",
-        "name": "standard_features",
-        "description": "Standard features related to the item.Sample   'values': Orthopedic, Water Resistant.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "theme": {
-        "code": "theme",
-        "name": "theme",
-        "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      }
+  "nursery": {
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Primary color(s) of your item. Allowed 'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
     },
-    "toys": {
-      "age_range": {
-        "code": "age_range",
-        "name": "age_range",
-        "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "color": {
-        "code": "color",
-        "name": "color",
-        "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "material": {
-        "code": "material",
-        "name": "material",
-        "description": "The primary material(s) of your item.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "gender": {
-        "code": "gender",
-        "name": "gender",
-        "description": "The specific gender that your item is intended for.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Male", "Female", "Unisex"]
-      },
-      "maximum_weight": {
-        "code": "maximum_weight",
-        "name": "maximum_weight",
-        "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "minimum_weight": {
-        "code": "minimum_weight",
-        "name": "minimum_weight",
-        "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_length": {
-        "code": "product_length",
-        "name": "product_length",
-        "description": "Length of the fully assembled product. Allowed   'values': 5 in,  2 ft,  60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_width": {
-        "code": "product_width",
-        "name": "product_width",
-        "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_height": {
-        "code": "product_height",
-        "name": "product_height",
-        "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "additional_features": {
-        "code": "additional_features",
-        "name": "additional_features",
-        "description": "Special features related to your item that might be important for buyers.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "character": {
-        "code": "character",
-        "name": "character",
-        "description": "Particular character, person, or entity that the item represents or is associated with.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "educational_focus": {
-        "code": "educational_focus",
-        "name": "educational_focus",
-        "description": "Determines if the item intended to improve a particular educational skill. Allowed   'values': Shape Identification, Language, Motor Skills, Pretend Play, Color Identification, Science, Nature, Math, Counting, Music, Reading, Writing, Creativity.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "pattern": {
-        "code": "pattern",
-        "name": "pattern",
-        "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham, Chevron.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "theme": {
-        "code": "theme",
-        "name": "theme",
-        "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      }
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "The primary material(s) of your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
     },
-    "baby_feeding": {
-      "age_range": {
-        "code": "age_range",
-        "name": "age_range",
-        "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "gender": {
-        "code": "gender",
-        "name": "gender",
-        "description": "The specific gender that your item is intended for.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Male", "Female", "Unisex"]
-      },
-      "baby_food_stage": {
-        "code": "baby_food_stage",
-        "name": "baby_food_stage",
-        "description": "Designed to capture the generalized age grouping (commonly referred to as 'stage') of a given baby food, as specified by the manufacturer.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "additional_features": {
-        "code": "additional_features",
-        "name": "additional_features",
-        "description": "Special features related to your item that might be important for buyers.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "allergens": {
-        "code": "allergens",
-        "name": "allergens",
-        "description": "Statement regarding any ingredients that may be food allergens, often written as 'Contains X' or 'Manufactured in a facility which processes Y'. ",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "character": {
-        "code": "character",
-        "name": "character",
-        "description": "Particular character, person, or entity that the item represents or is associated with. Multiple   'values' accepted. Allowed   'values': Chewbacca, Spongebob.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "color": {
-        "code": "color",
-        "name": "color",
-        "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "flavor": {
-        "code": "flavor",
-        "name": "flavor",
-        "description": "Describes the taste or flavor of the item, as described by the manufacturer. ",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "ingredients": {
-        "code": "ingredients",
-        "name": "ingredients",
-        "description": "List of active ingredients as shown on the item label. Active ingredients usually perform a specific purpose, such as hydration, anti-acne, and so on. ",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "life_stage": {
-        "code": "life_stage",
-        "name": "life_stage",
-        "description": "Life stage of a child. Allowed   'values': Newborn, Infant, Toddler.",
-        "required_level": "optional",
-        "type": "select",
-        "values": ["Newborn", "Infant", "Toddler"]
-      },
-      "material": {
-        "code": "material",
-        "name": "material",
-        "description": "Primary material(s) of the item. Allowed   'values': Cotton, Linen, Cashmere, Silk.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "maximum_weight": {
-        "code": "maximum_weight",
-        "name": "maximum_weight",
-        "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight.",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "minimum_weight": {
-        "code": "minimum_weight",
-        "name": "minimum_weight",
-        "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight. ",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "package_quantity": {
-        "code": "package_quantity",
-        "name": "package_quantity",
-        "description": "Total number of items included in the package or box. Allowed   'values': 12,24, 36.",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "product_form": {
-        "code": "product_form",
-        "name": "product_form",
-        "description": "Consistency, texture, or formulation of the item and the way it will be consumed or dispensed.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "product_length": {
-        "code": "product_length",
-        "name": "product_length",
-        "description": "Length of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "product_width": {
-        "code": "product_width",
-        "name": "product_width",
-        "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "product_height": {
-        "code": "product_height",
-        "name": "product_height",
-        "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "theme": {
-        "code": "theme",
-        "name": "theme",
-        "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      }
+    "size": {
+      "code": "size",
+      "name": "size",
+      "description": "Size as it appears on the label. Includes generic sizes, such as Small and One Size. Includes numeric sizes, such as 2, 4. Sample 'values': Small, Medium, Large, \"2\",4,6, One Size.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
     },
-    "baby_transport": {
-      "color": {
-        "code": "color",
-        "name": "color",
-        "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "material": {
-        "code": "material",
-        "name": "material",
-        "description": "The primary material(s) of your item.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "gender": {
-        "code": "gender",
-        "name": "gender",
-        "description": "The specific gender that your item is intended for.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Male", "Female", "Unisex"]
-      },
-      "is_assembly_required": {
-        "code": "is_assembly_required",
-        "name": "is_assembly_required",
-        "description": "Indicates if the product arrives unassembled and must be put together before use.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Yes", "No"]
-      },
-      "maximum_weight": {
-        "code": "maximum_weight",
-        "name": "maximum_weight",
-        "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "minimum_weight": {
-        "code": "minimum_weight",
-        "name": "minimum_weight",
-        "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_length": {
-        "code": "product_length",
-        "name": "product_length",
-        "description": "Length of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_width": {
-        "code": "product_width",
-        "name": "product_width",
-        "description": "Width of the fully assembled product. Allowed   'values': 5 in,2 ft, 60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_height": {
-        "code": "product_height",
-        "name": "product_height",
-        "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "additional_features": {
-        "code": "additional_features",
-        "name": "additional_features",
-        "description": "Special features related to your item that might be important for buyers.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "baby_carrier_position": {
-        "code": "baby_carrier_position",
-        "name": "baby_carrier_position",
-        "description": "Applies to wearable baby carriers. Describes the part of the body against which the child is placed along with the direction the child faces (where applicable) while in the wearable baby carrier. ",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "baby_carrier_style": {
-        "code": "baby_carrier_style",
-        "name": "baby_carrier_style",
-        "description": "Which direction the car seat faces. Allowed   'values': Forward-Facing, Rear-Facing, Convertible.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "car_seat_facing_direction": {
-        "code": "car_seat_facing_direction",
-        "name": "car_seat_facing_direction",
-        "description": "Prominent wearable baby carrier styles. Allowed   'values': sling, skin-to-skin, wrap, frame carrier.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "car_seat_max_child_height": {
-        "code": "car_seat_max_child_height",
-        "name": "car_seat_max_child_height",
-        "description": "Maximum height of the child occupant as given by the manufacturer, measured in inches or centimeters. Allowed   'values': 57 in,145 cm.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "character": {
-        "code": "character",
-        "name": "character",
-        "description": "Particular character, person, or entity that the item represents or is associated with.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "child_car_seat_style": {
-        "code": "child_car_seat_style",
-        "name": "child_car_seat_style",
-        "description": "Prominent car seat styles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "number_of_seats": {
-        "code": "number_of_seats",
-        "name": "number_of_seats",
-        "description": "Seating capacity of the furniture. Allowed   'values': 1,2,4,6, 8.",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "pattern": {
-        "code": "pattern",
-        "name": "pattern",
-        "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham Chevron.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "safety_harness_style": {
-        "code": "safety_harness_style",
-        "name": "safety_harness_style",
-        "description": "Style of the occupant restraint harness included with the car seat, stroller, carrier, and so on. Allowed   'values': 3-point harness, 5-point harness, no harness.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "standard_features": {
-        "code": "standard_features",
-        "name": "standard_features",
-        "description": "Standard features related to the item.Sample   'values': Orthopedic, Water Resistant.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "stroller_type": {
-        "code": "stroller_type",
-        "name": "stroller_type",
-        "description": "Prominent stroller styles. Allowed   'values': jogging, lightweight, umbrella, full-size, sit and stand, all-terrain.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "theme": {
-        "code": "theme",
-        "name": "theme",
-        "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      }
+    "decor_style": {
+      "code": "decor_style",
+      "name": "decor_style",
+      "description": "Decorative style in which the product was made. Allowed 'values': Bohemian, Contemporary, Industrial, Mid-Century, Modern, Rustic, Vintage.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
     },
-    "diapering_and_potty_training": {
-      "age_range": {
-        "code": "age_range",
-        "name": "age_range",
-        "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "material": {
-        "code": "material",
-        "name": "material",
-        "description": "The primary material(s) of your item.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "color": {
-        "code": "color",
-        "name": "color",
-        "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "gender": {
-        "code": "gender",
-        "name": "gender",
-        "description": "The specific gender that your item is intended for.",
-        "required_level": "recommended",
-        "type": "select",
-        "values": ["Male", "Female", "Unisex"]
-      },
-      "package_quantity": {
-        "code": "package_quantity",
-        "name": "package_quantity",
-        "description": "Total number of items included in the package or box. Allowed   'values': 12, 24, 36.",
-        "required_level": "recommended",
-        "type": "numeric",
-        "values": []
-      },
-      "product_height": {
-        "code": "product_height",
-        "name": "product_height",
-        "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_length": {
-        "code": "product_length",
-        "name": "product_length",
-        "description": "Length of the fully assembled product. Allowed   'values': 5 in,2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "product_width": {
-        "code": "product_width",
-        "name": "product_width",
-        "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft,60 cm.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "size": {
-        "code": "size",
-        "name": "size",
-        "description": "Size associated with the product, such as diaper size, crib bed size. Allowed   'values': N,1,5, Mini, Standard.",
-        "required_level": "recommended",
-        "type": "text",
-        "values": []
-      },
-      "additional_features": {
-        "code": "additional_features",
-        "name": "additional_features",
-        "description": "Special features related to your item that might be important for buyers.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "character": {
-        "code": "character",
-        "name": "character",
-        "description": "Particular character, person, or entity that the item represents or is associated with.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "diaper_type": {
-        "code": "diaper_type",
-        "name": "diaper_type",
-        "description": "type of diaper. Allowed   'values': Cloth, Disposable, Training Pants.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "ingredients": {
-        "code": "ingredients",
-        "name": "ingredients",
-        "description": "List of active ingredients as shown on the item label. Active ingredients usually perform a specific purpose, such as hydration, anti-acne, and so on.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "instructions": {
-        "code": "instructions",
-        "name": "instructions",
-        "description": "Information that describes how the item should be assembled, consumed, or used.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "life_stage": {
-        "code": "life_stage",
-        "name": "life_stage",
-        "description": "Life stage of a child. Allowed   'values': Newborn, Infant, Toddler.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "maximum_weight": {
-        "code": "maximum_weight",
-        "name": "maximum_weight",
-        "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "minimum_weight": {
-        "code": "minimum_weight",
-        "name": "minimum_weight",
-        "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
-        "required_level": "optional",
-        "type": "numeric",
-        "values": []
-      },
-      "pattern": {
-        "code": "pattern",
-        "name": "pattern",
-        "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham, Chevron.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "product_form": {
-        "code": "product_form",
-        "name": "product_form",
-        "description": "Consistency, texture, or formulation of the item and the way it will be consumed or dispensed. Allowed   'values': Oil, Gel, Spray, Cream, Powder, Serum, Liquid, Frozen, Granules, Liquid, Bars, Fresh, Whole, Stewed, Sliced, Chopped, Diced, Blended, Powders.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "scent": {
-        "code": "scent",
-        "name": "scent",
-        "description": "Scent(s) or fragrance(s) of your item, including items labeled as 'unscented'. Multiple   'values' accepted. Allowed   'values': Lavender, Vanilla, Lemon, Coconut, Jasmine, Pine.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "stop_use_indications": {
-        "code": "stop_use_indications",
-        "name": "stop_use_indications",
-        "description": "Information that describes symptoms or reactions that indicate when to stop taking medicine.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      },
-      "theme": {
-        "code": "theme",
-        "name": "theme",
-        "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
-        "required_level": "optional",
-        "type": "text",
-        "values": []
-      }
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "maximum_weight": {
+      "code": "maximum_weight",
+      "name": "maximum_weight",
+      "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "minimum_weight": {
+      "code": "minimum_weight",
+      "name": "minimum_weight",
+      "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_length": {
+      "code": "product_length",
+      "name": "product_length",
+      "description": "Length of the fully assembled product. Allowed 'values': 5 in,2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_width": {
+      "code": "product_width",
+      "name": "product_width",
+      "description": "Width of the fully assembled product. Allowed 'values': 5 in,2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_height": {
+      "code": "product_height",
+      "name": "product_height",
+      "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in,2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "comfort_level": {
+      "code": "comfort_level",
+      "name": "comfort_level",
+      "description": "Firmness or softness of a mattress. Allowed 'values': Extra Plush, Plush, Medium, Firm, Extra Firm, Adjustable.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "fabric_care_instructions": {
+      "code": "fabric_care_instructions",
+      "name": "fabric_care_instructions",
+      "description": "Specific care instructions for how the fabric of your item should be cleaned. This can be found on the label of the item.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "fill_material": {
+      "code": "fill_material",
+      "name": "fill_material",
+      "description": "Material(s) used to stuff the item usually in cushions, pillows, mattresses, and bean bags. Allowed 'values': Polyester, Foam, Latex, Down, Cotton.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "finish": {
+      "code": "finish",
+      "name": "finish",
+      "description": "External treatment to the product that usually includes a change in appearance or texture to the item. Commonly used for furniture include wood, metal and fabric. Allowed 'values': Natural/Unfinished, Walnut, Pewter, Antiqued.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "is_assembly_required": {
+      "code": "is_assembly_required",
+      "name": "is_assembly_required",
+      "description": "Indicates if the product arrives unassembled and must be put together before use.",
+      "required_level": "optional",
+      "type": "select",
+      "values": ["Yes", "No"]
+    },
+    "mattress_thickness": {
+      "code": "mattress_thickness",
+      "name": "mattress_thickness",
+      "description": "Measure from the bottom of the mattress to the crown. Allowed 'values': 12 in,15 in,30 cm,38 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "number_of_drawers": {
+      "code": "number_of_drawers",
+      "name": "number_of_drawers",
+      "description": "Number of drawers included in the product. Allowed 'values': [2,4, 8]",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "number_of_shelves": {
+      "code": "number_of_shelves",
+      "name": "number_of_shelves",
+      "description": "Number of shelves included in the product. Allowed 'values': 2,4, 8.",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "pattern": {
+      "code": "pattern",
+      "name": "pattern",
+      "description": "Recurring design, pattern, or motif on your item. Allowed 'values': Plaid, Polka Dot, Gingham, Chevron.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "shape": {
+      "code": "shape",
+      "name": "shape",
+      "description": "General shape of the product. Often used to describe furniture and home furnishings. Allowed   'values': Rectangle, Square, Oval, Circle, Triangle.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "standard_features": {
+      "code": "standard_features",
+      "name": "standard_features",
+      "description": "Standard features related to the item.Sample   'values': Orthopedic, Water Resistant.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "theme": {
+      "code": "theme",
+      "name": "theme",
+      "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    }
+  },
+  "toys": {
+    "age_range": {
+      "code": "age_range",
+      "name": "age_range",
+      "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "The primary material(s) of your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "maximum_weight": {
+      "code": "maximum_weight",
+      "name": "maximum_weight",
+      "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "minimum_weight": {
+      "code": "minimum_weight",
+      "name": "minimum_weight",
+      "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_length": {
+      "code": "product_length",
+      "name": "product_length",
+      "description": "Length of the fully assembled product. Allowed   'values': 5 in,  2 ft,  60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_width": {
+      "code": "product_width",
+      "name": "product_width",
+      "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_height": {
+      "code": "product_height",
+      "name": "product_height",
+      "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "educational_focus": {
+      "code": "educational_focus",
+      "name": "educational_focus",
+      "description": "Determines if the item intended to improve a particular educational skill. Allowed   'values': Shape Identification, Language, Motor Skills, Pretend Play, Color Identification, Science, Nature, Math, Counting, Music, Reading, Writing, Creativity.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "pattern": {
+      "code": "pattern",
+      "name": "pattern",
+      "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham, Chevron.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "theme": {
+      "code": "theme",
+      "name": "theme",
+      "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    }
+  },
+  "baby feeding": {
+    "age_range": {
+      "code": "age_range",
+      "name": "age_range",
+      "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "baby_food_stage": {
+      "code": "baby_food_stage",
+      "name": "baby_food_stage",
+      "description": "Designed to capture the generalized age grouping (commonly referred to as 'stage') of a given baby food, as specified by the manufacturer.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "allergens": {
+      "code": "allergens",
+      "name": "allergens",
+      "description": "Statement regarding any ingredients that may be food allergens, often written as 'Contains X' or 'Manufactured in a facility which processes Y'. ",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with. Multiple   'values' accepted. Allowed   'values': Chewbacca, Spongebob.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "flavor": {
+      "code": "flavor",
+      "name": "flavor",
+      "description": "Describes the taste or flavor of the item, as described by the manufacturer. ",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "ingredients": {
+      "code": "ingredients",
+      "name": "ingredients",
+      "description": "List of active ingredients as shown on the item label. Active ingredients usually perform a specific purpose, such as hydration, anti-acne, and so on. ",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "life_stage": {
+      "code": "life_stage",
+      "name": "life_stage",
+      "description": "Life stage of a child. Allowed   'values': Newborn, Infant, Toddler.",
+      "required_level": "optional",
+      "type": "select",
+      "values": ["Newborn", "Infant", "Toddler"]
+    },
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "Primary material(s) of the item. Allowed   'values': Cotton, Linen, Cashmere, Silk.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "maximum_weight": {
+      "code": "maximum_weight",
+      "name": "maximum_weight",
+      "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight.",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "minimum_weight": {
+      "code": "minimum_weight",
+      "name": "minimum_weight",
+      "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight. ",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "package_quantity": {
+      "code": "package_quantity",
+      "name": "package_quantity",
+      "description": "Total number of items included in the package or box. Allowed   'values': 12,24, 36.",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "product_form": {
+      "code": "product_form",
+      "name": "product_form",
+      "description": "Consistency, texture, or formulation of the item and the way it will be consumed or dispensed.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "product_length": {
+      "code": "product_length",
+      "name": "product_length",
+      "description": "Length of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "product_width": {
+      "code": "product_width",
+      "name": "product_width",
+      "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "product_height": {
+      "code": "product_height",
+      "name": "product_height",
+      "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "theme": {
+      "code": "theme",
+      "name": "theme",
+      "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    }
+  },
+  "baby transport": {
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "The primary material(s) of your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "is_assembly_required": {
+      "code": "is_assembly_required",
+      "name": "is_assembly_required",
+      "description": "Indicates if the product arrives unassembled and must be put together before use.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Yes", "No"]
+    },
+    "maximum_weight": {
+      "code": "maximum_weight",
+      "name": "maximum_weight",
+      "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "minimum_weight": {
+      "code": "minimum_weight",
+      "name": "minimum_weight",
+      "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_length": {
+      "code": "product_length",
+      "name": "product_length",
+      "description": "Length of the fully assembled product. Allowed   'values': 5 in, 2 ft, 60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_width": {
+      "code": "product_width",
+      "name": "product_width",
+      "description": "Width of the fully assembled product. Allowed   'values': 5 in,2 ft, 60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_height": {
+      "code": "product_height",
+      "name": "product_height",
+      "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "baby_carrier_position": {
+      "code": "baby_carrier_position",
+      "name": "baby_carrier_position",
+      "description": "Applies to wearable baby carriers. Describes the part of the body against which the child is placed along with the direction the child faces (where applicable) while in the wearable baby carrier. ",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "baby_carrier_style": {
+      "code": "baby_carrier_style",
+      "name": "baby_carrier_style",
+      "description": "Which direction the car seat faces. Allowed   'values': Forward-Facing, Rear-Facing, Convertible.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "car_seat_facing_direction": {
+      "code": "car_seat_facing_direction",
+      "name": "car_seat_facing_direction",
+      "description": "Prominent wearable baby carrier styles. Allowed   'values': sling, skin-to-skin, wrap, frame carrier.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "car_seat_max_child_height": {
+      "code": "car_seat_max_child_height",
+      "name": "car_seat_max_child_height",
+      "description": "Maximum height of the child occupant as given by the manufacturer, measured in inches or centimeters. Allowed   'values': 57 in,145 cm.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "child_car_seat_style": {
+      "code": "child_car_seat_style",
+      "name": "child_car_seat_style",
+      "description": "Prominent car seat styles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "number_of_seats": {
+      "code": "number_of_seats",
+      "name": "number_of_seats",
+      "description": "Seating capacity of the furniture. Allowed   'values': 1,2,4,6, 8.",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "pattern": {
+      "code": "pattern",
+      "name": "pattern",
+      "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham Chevron.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "safety_harness_style": {
+      "code": "safety_harness_style",
+      "name": "safety_harness_style",
+      "description": "Style of the occupant restraint harness included with the car seat, stroller, carrier, and so on. Allowed   'values': 3-point harness, 5-point harness, no harness.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "standard_features": {
+      "code": "standard_features",
+      "name": "standard_features",
+      "description": "Standard features related to the item.Sample   'values': Orthopedic, Water Resistant.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "stroller_type": {
+      "code": "stroller_type",
+      "name": "stroller_type",
+      "description": "Prominent stroller styles. Allowed   'values': jogging, lightweight, umbrella, full-size, sit and stand, all-terrain.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "theme": {
+      "code": "theme",
+      "name": "theme",
+      "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    }
+  },
+  "diapering and potty training": {
+    "age_range": {
+      "code": "age_range",
+      "name": "age_range",
+      "description": "Minimum and maximum ages for a product, such as the unit of measure in Months, or Years. Allowed   'values': 1-3 yrs, 6-9 mos.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "material": {
+      "code": "material",
+      "name": "material",
+      "description": "The primary material(s) of your item.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "color": {
+      "code": "color",
+      "name": "color",
+      "description": "Primary color(s) of your item. Allowed   'values': Beige, Black, Blue, Bronze, Brown, Gold, Gray.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "gender": {
+      "code": "gender",
+      "name": "gender",
+      "description": "The specific gender that your item is intended for.",
+      "required_level": "recommended",
+      "type": "select",
+      "values": ["Male", "Female", "Unisex"]
+    },
+    "package_quantity": {
+      "code": "package_quantity",
+      "name": "package_quantity",
+      "description": "Total number of items included in the package or box. Allowed   'values': 12, 24, 36.",
+      "required_level": "recommended",
+      "type": "numeric",
+      "values": []
+    },
+    "product_height": {
+      "code": "product_height",
+      "name": "product_height",
+      "description": "Height of the fully assembled product. This may be separate from the seat_height and seat_back_height attributes. Allowed   'values': 5 in, 2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_length": {
+      "code": "product_length",
+      "name": "product_length",
+      "description": "Length of the fully assembled product. Allowed   'values': 5 in,2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "product_width": {
+      "code": "product_width",
+      "name": "product_width",
+      "description": "Width of the fully assembled product. Allowed   'values': 5 in, 2 ft,60 cm.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "size": {
+      "code": "size",
+      "name": "size",
+      "description": "Size associated with the product, such as diaper size, crib bed size. Allowed   'values': N,1,5, Mini, Standard.",
+      "required_level": "recommended",
+      "type": "text",
+      "values": []
+    },
+    "additional_features": {
+      "code": "additional_features",
+      "name": "additional_features",
+      "description": "Special features related to your item that might be important for buyers.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "character": {
+      "code": "character",
+      "name": "character",
+      "description": "Particular character, person, or entity that the item represents or is associated with.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "diaper_type": {
+      "code": "diaper_type",
+      "name": "diaper_type",
+      "description": "type of diaper. Allowed   'values': Cloth, Disposable, Training Pants.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "ingredients": {
+      "code": "ingredients",
+      "name": "ingredients",
+      "description": "List of active ingredients as shown on the item label. Active ingredients usually perform a specific purpose, such as hydration, anti-acne, and so on.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "instructions": {
+      "code": "instructions",
+      "name": "instructions",
+      "description": "Information that describes how the item should be assembled, consumed, or used.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "life_stage": {
+      "code": "life_stage",
+      "name": "life_stage",
+      "description": "Life stage of a child. Allowed   'values': Newborn, Infant, Toddler.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "maximum_weight": {
+      "code": "maximum_weight",
+      "name": "maximum_weight",
+      "description": "Upper weight limit or capability of an item, often used in conjunction with minimum_weight. ",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "minimum_weight": {
+      "code": "minimum_weight",
+      "name": "minimum_weight",
+      "description": "Lower weight limit or capability of an item, often used in conjunction with maximum_weight.",
+      "required_level": "optional",
+      "type": "numeric",
+      "values": []
+    },
+    "pattern": {
+      "code": "pattern",
+      "name": "pattern",
+      "description": "Recurring design, pattern, or motif on your item. Allowed   'values': Plaid, Polka Dot, Gingham, Chevron.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "product_form": {
+      "code": "product_form",
+      "name": "product_form",
+      "description": "Consistency, texture, or formulation of the item and the way it will be consumed or dispensed. Allowed   'values': Oil, Gel, Spray, Cream, Powder, Serum, Liquid, Frozen, Granules, Liquid, Bars, Fresh, Whole, Stewed, Sliced, Chopped, Diced, Blended, Powders.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "scent": {
+      "code": "scent",
+      "name": "scent",
+      "description": "Scent(s) or fragrance(s) of your item, including items labeled as 'unscented'. Multiple   'values' accepted. Allowed   'values': Lavender, Vanilla, Lemon, Coconut, Jasmine, Pine.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "stop_use_indications": {
+      "code": "stop_use_indications",
+      "name": "stop_use_indications",
+      "description": "Information that describes symptoms or reactions that indicate when to stop taking medicine.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
+    },
+    "theme": {
+      "code": "theme",
+      "name": "theme",
+      "description": "Particular subject(s), theme(s), or idea(s) that your item represents or is associated with. Allowed   'values': Space, Super Heroes, Automobiles.",
+      "required_level": "optional",
+      "type": "text",
+      "values": []
     }
   },
   "clothing": {
@@ -1156,7 +1154,7 @@
       "values": []
     }
   },
-  "clothing_accessories": {
+  "clothing accessories": {
     "age_group": {
       "code": "age_group",
       "name": "age_group",
@@ -1851,7 +1849,7 @@
       "values": []
     }
   },
-  "large_appliances": {
+  "large appliances": {
     "color": {
       "code": "color",
       "name": "color",
@@ -2029,7 +2027,7 @@
       "values": []
     }
   },
-  "household_and_cleaning_supplies": {
+  "household and cleaning supplies": {
     "ingredients": {
       "code": "ingredients",
       "name": "ingredients",
@@ -2127,7 +2125,7 @@
       "values": []
     }
   },
-  "cellphones_and_smart_watches": {
+  "cellphones and smart watches": {
     "color": {
       "code": "color",
       "name": "color",
@@ -2369,7 +2367,7 @@
       "values": []
     }
   },
-  "computers_laptops_and_tablets": {
+  "computers laptops and tablets": {
     "model": {
       "code": "model",
       "name": "model",
@@ -2587,7 +2585,7 @@
       "values": []
     }
   },
-  "video_games_and_console": {
+  "video games and console": {
     "model": {
       "code": "model",
       "name": "model",
@@ -2895,7 +2893,7 @@
       "values": []
     }
   },
-  "televisions_and_monitors": {
+  "televisions and monitors": {
     "display_technology": {
       "code": "display_technology",
       "name": "display_technology",
@@ -3105,7 +3103,7 @@
       "values": []
     }
   },
-  "printers_scanners_and_fax_machine": {
+  "printers scanners and fax machine": {
     "model": {
       "code": "model",
       "name": "model",
@@ -3227,7 +3225,7 @@
       "values": []
     }
   },
-  "electronic_accessories_and_cables": {
+  "electronic accessories and cables": {
     "color": {
       "code": "color",
       "name": "color",
@@ -3373,7 +3371,7 @@
       "values": []
     }
   },
-  "camera_and_photo": {
+  "camera and photo": {
     "model": {
       "code": "model",
       "name": "model",
