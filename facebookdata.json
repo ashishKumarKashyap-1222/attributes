@@ -1,328 +1,327 @@
 [
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe3"
-            },
-            "name": "shoes",
-            "marketplace_id": "shoes",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "shoes",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "shoes"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe4"
-            },
-            "name": "clothing accessories",
-            "marketplace_id": "clothing_accessories",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "clothing_accessories",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "clothing accessories"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe5"
-            },
-            "name": "furniture",
-            "marketplace_id": "furniture",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "furniture",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "furniture"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe6"
-            },
-            "name": "bedding",
-            "marketplace_id": "bedding",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "bedding",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "bedding"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe7"
-            },
-            "name": "household and cleaning supplies",
-            "marketplace_id": "household_and_cleaning_supplies",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "household and cleaning supplies",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "household and cleaning supplies"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe8"
-            },
-            "name": "large appliances",
-            "marketplace_id": "large_appliances",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "large appliances",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "large appliances"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febe9"
-            },
-            "name": "cellphones and smart watches",
-            "marketplace_id": "cellphones and smart watches",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Cell Phones & Smart Watches",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "cellphones and smart watches"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febea"
-            },
-            "name": "Computers & Tables",
-            "marketplace_id": "Computers & Tables",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Computers & Tables",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Computers & Tables"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febeb"
-            },
-            "name": "computers components",
-            "marketplace_id": "computers components",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "computers components",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "computers components"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febec"
-            },
-            "name": "Video Game Consoles & Video Games",
-            "marketplace_id": "Video Game Consoles and Video Games",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Video Game Consoles & Video Games",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Video Game Consoles & Video Games"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febed"
-            },
-            "name": "software",
-            "marketplace_id": "software",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "software",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "software"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febee"
-            },
-            "name": "televisions and monitors",
-            "marketplace_id": "televisions and monitors",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "televisions and monitors",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "televisions and monitors"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febef"
-            },
-            "name": "Printers & Scanners",
-            "marketplace_id": "Printers and Scanners",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Printers & Scanners",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Printers & Scanners"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf0"
-            },
-            "name": "Accessories",
-            "marketplace_id": "Accessories",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Accessories",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Accessories"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf1"
-            },
-            "name": "video projector",
-            "marketplace_id": "video projector",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "video projector",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "video projector"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf2"
-            },
-            "name": "camera and photo",
-            "marketplace_id": "camera and photo",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "camera and photo",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "camera and photo"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf3"
-            },
-            "name": "beauty",
-            "marketplace_id": "beauty",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "beauty",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "beauty"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf4"
-            },
-            "name": "health",
-            "marketplace_id": "health",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "health",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "health"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf5"
-            },
-            "name": "watches",
-            "marketplace_id": "watches",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "watches",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "watches"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d94c68e6c00a81febf6"
-            },
-            "name": "jewelry",
-            "marketplace_id": "jewelry",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "jewelry",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "jewelry"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d95c68e6c00a81febf7"
-            },
-            "name": "Nursery",
-            "marketplace_id": "Nursery",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Nursery",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Nursery"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d95c68e6c00a81febf8"
-            },
-            "name": "Toys",
-            "marketplace_id": "Toys",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Toys",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Toys"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d95c68e6c00a81febf9"
-            },
-            "name": "Baby Feeding",
-            "marketplace_id": "Baby Feeding",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Baby Feeding",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Baby Feeding"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d95c68e6c00a81febfa"
-            },
-            "name": "Baby Transport",
-            "marketplace_id": "Baby Transport",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Baby Transport",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Baby Transport"
-        },
-        {
-            "_id": {
-                "$oid": "605c8d95c68e6c00a81febfb"
-            },
-            "name": "Diapering & Potty Training",
-            "marketplace_id": "Diapering & Potty Training",
-            "marketplace_parent_id": "0",
-            "marketplace": "facebook",
-            "full_path": "Diapering & Potty Training",
-            "level": 0,
-            "parent_id": 0,
-            "custom_category_path": "Diapering & Potty Training"
-        }
-    ]
-
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe3"
+    },
+    "name": "shoes",
+    "marketplace_id": "shoes",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "shoes",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "shoes"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe4"
+    },
+    "name": "clothing accessories",
+    "marketplace_id": "clothing_accessories",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "clothing_accessories",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "clothing accessories"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe5"
+    },
+    "name": "furniture",
+    "marketplace_id": "furniture",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "furniture",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "furniture"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe6"
+    },
+    "name": "bedding",
+    "marketplace_id": "bedding",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "bedding",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "bedding"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe7"
+    },
+    "name": "household and cleaning supplies",
+    "marketplace_id": "household_and_cleaning_supplies",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "household and cleaning supplies",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "household and cleaning supplies"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe8"
+    },
+    "name": "large appliances",
+    "marketplace_id": "large_appliances",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "large appliances",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "large appliances"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febe9"
+    },
+    "name": "cellphones and smart watches",
+    "marketplace_id": "cellphones and smart watches",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Cell Phones & Smart Watches",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "cellphones and smart watches"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febea"
+    },
+    "name": "Computers & Tables",
+    "marketplace_id": "Computers & Tables",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Computers & Tables",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Computers & Tables"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febeb"
+    },
+    "name": "computers components",
+    "marketplace_id": "computers components",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "computers components",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "computers components"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febec"
+    },
+    "name": "Video Game Consoles & Video Games",
+    "marketplace_id": "Video Game Consoles and Video Games",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Video Game Consoles & Video Games",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Video Game Consoles & Video Games"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febed"
+    },
+    "name": "software",
+    "marketplace_id": "software",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "software",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "software"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febee"
+    },
+    "name": "televisions and monitors",
+    "marketplace_id": "televisions and monitors",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "televisions and monitors",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "televisions and monitors"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febef"
+    },
+    "name": "Printers & Scanners",
+    "marketplace_id": "Printers and Scanners",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Printers & Scanners",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Printers & Scanners"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf0"
+    },
+    "name": "Accessories",
+    "marketplace_id": "Accessories",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Accessories",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Accessories"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf1"
+    },
+    "name": "video projector",
+    "marketplace_id": "video projector",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "video projector",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "video projector"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf2"
+    },
+    "name": "camera and photo",
+    "marketplace_id": "camera and photo",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "camera and photo",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "camera and photo"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf3"
+    },
+    "name": "beauty",
+    "marketplace_id": "beauty",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "beauty",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "beauty"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf4"
+    },
+    "name": "health",
+    "marketplace_id": "health",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "health",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "health"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf5"
+    },
+    "name": "watches",
+    "marketplace_id": "watches",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "watches",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "watches"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d94c68e6c00a81febf6"
+    },
+    "name": "jewelry",
+    "marketplace_id": "jewelry",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "jewelry",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "jewelry"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d95c68e6c00a81febf7"
+    },
+    "name": "Nursery",
+    "marketplace_id": "Nursery",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Nursery",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Nursery"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d95c68e6c00a81febf8"
+    },
+    "name": "Toys",
+    "marketplace_id": "Toys",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Toys",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Toys"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d95c68e6c00a81febf9"
+    },
+    "name": "Baby Feeding",
+    "marketplace_id": "Baby Feeding",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Baby Feeding",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Baby Feeding"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d95c68e6c00a81febfa"
+    },
+    "name": "Baby Transport",
+    "marketplace_id": "Baby Transport",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Baby Transport",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Baby Transport"
+  },
+  {
+    "_id": {
+      "$oid": "605c8d95c68e6c00a81febfb"
+    },
+    "name": "Diapering & Potty Training",
+    "marketplace_id": "Diapering & Potty Training",
+    "marketplace_parent_id": "0",
+    "marketplace": "facebook",
+    "full_path": "Diapering & Potty Training",
+    "level": 0,
+    "parent_id": 0,
+    "custom_category_path": "Diapering & Potty Training"
+  }
+]
