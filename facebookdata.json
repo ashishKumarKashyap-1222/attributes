@@ -1,4 +1,4 @@
-{
+[
   {
     "_id": {
       "$oid": "605c8d94c68e6c00a81febe3"
@@ -324,4 +324,4 @@
     "parent_id": 0,
     "custom_category_path": "Diapering & Potty Training"
   }
-}
+]
