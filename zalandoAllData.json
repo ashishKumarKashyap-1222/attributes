@@ -1,0 +1,1211 @@
+[
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec02"
+            },
+            "name": "bag",
+            "marketplace_id": "bag",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bag",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bag"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec03"
+            },
+            "name": "bathrobe",
+            "marketplace_id": "bathrobe",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bathrobe",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bathrobe"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec04"
+            },
+            "name": "bathroom",
+            "marketplace_id": "bathroom",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bathroom",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bathroom"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec05"
+            },
+            "name": "beach_accessoires",
+            "marketplace_id": "beach_accessoires",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "beach_accessoires",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "beach_accessoires"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec06"
+            },
+            "name": "beach_trouser",
+            "marketplace_id": "beach_trouser",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "beach_trouser",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "beach_trouser"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec07"
+            },
+            "name": "beauty_equipment",
+            "marketplace_id": "beauty_equipment",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "beauty_equipment",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "beauty_equipment"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec08"
+            },
+            "name": "bedroom",
+            "marketplace_id": "bedroom",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bedroom",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bedroom"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec09"
+            },
+            "name": "belt",
+            "marketplace_id": "belt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "belt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "belt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0a"
+            },
+            "name": "bicycle",
+            "marketplace_id": "bicycle",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bicycle",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bicycle"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0b"
+            },
+            "name": "bicycle_equipment",
+            "marketplace_id": "bicycle_equipment",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bicycle_equipment",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bicycle_equipment"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0c"
+            },
+            "name": "bikini_top",
+            "marketplace_id": "bikini_top",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bikini_top",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bikini_top"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0d"
+            },
+            "name": "bustier",
+            "marketplace_id": "bustier",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bustier",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bustier"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0e"
+            },
+            "name": "cardigan",
+            "marketplace_id": "cardigan",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "cardigan",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "cardigan"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec0f"
+            },
+            "name": "combination_clothing",
+            "marketplace_id": "combination_clothing",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "combination_clothing",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "combination_clothing"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec10"
+            },
+            "name": "backless_slipper",
+            "marketplace_id": "backless_slipper",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "backless_slipper",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "backless_slipper"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec11"
+            },
+            "name": "dress",
+            "marketplace_id": "dress",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "dress",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "dress"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec12"
+            },
+            "name": "backpack",
+            "marketplace_id": "backpack",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "backpack",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "backpack"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec13"
+            },
+            "name": "ball",
+            "marketplace_id": "ball",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "ball",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "ball"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec14"
+            },
+            "name": "bath_and_body",
+            "marketplace_id": "bath_and_body",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bath_and_body",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bath_and_body"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec15"
+            },
+            "name": "etui",
+            "marketplace_id": "etui",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "etui",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "etui"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec16"
+            },
+            "name": "face_cosmetic",
+            "marketplace_id": "face_cosmetic",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "face_cosmetic",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "face_cosmetic"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec17"
+            },
+            "name": "first_shoe",
+            "marketplace_id": "first_shoe",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "first_shoe",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "first_shoe"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec18"
+            },
+            "name": "fragrance",
+            "marketplace_id": "fragrance",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "fragrance",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "fragrance"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec19"
+            },
+            "name": "gloves",
+            "marketplace_id": "gloves",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "gloves",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "gloves"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1a"
+            },
+            "name": "ankle_boots",
+            "marketplace_id": "ankle_boots",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "ankle_boots",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "ankle_boots"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1b"
+            },
+            "name": "ballerina_shoe",
+            "marketplace_id": "ballerina_shoe",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "ballerina_shoe",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "ballerina_shoe"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1c"
+            },
+            "name": "hair",
+            "marketplace_id": "hair",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "hair",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "hair"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1d"
+            },
+            "name": "headgear",
+            "marketplace_id": "headgear",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "headgear",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "headgear"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1e"
+            },
+            "name": "jewellery",
+            "marketplace_id": "jewellery",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "jewellery",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "jewellery"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec1f"
+            },
+            "name": "headphones",
+            "marketplace_id": "headphones",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "headphones",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "headphones"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec20"
+            },
+            "name": "boards",
+            "marketplace_id": "boards",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "boards",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "boards"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec21"
+            },
+            "name": "keychain",
+            "marketplace_id": "keychain",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "keychain",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "keychain"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec22"
+            },
+            "name": "lip_cosmetic",
+            "marketplace_id": "lip_cosmetic",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "lip_cosmetic",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "lip_cosmetic"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec23"
+            },
+            "name": "lounge",
+            "marketplace_id": "lounge",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "lounge",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "lounge"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec24"
+            },
+            "name": "nail",
+            "marketplace_id": "nail",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "nail",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "nail"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec25"
+            },
+            "name": "nightwear_combination",
+            "marketplace_id": "nightwear_combination",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "nightwear_combination",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "nightwear_combination"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec26"
+            },
+            "name": "one_piece_beachwear",
+            "marketplace_id": "one_piece_beachwear",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "one_piece_beachwear",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "one_piece_beachwear"
+        },
+        {
+            "_id": {
+                "$oid": "605d834d922b2b579b7aec27"
+            },
+            "name": "beach_shirt",
+            "marketplace_id": "beach_shirt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "beach_shirt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "beach_shirt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec28"
+            },
+            "name": "one_piece_nightwear",
+            "marketplace_id": "one_piece_nightwear",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "one_piece_nightwear",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "one_piece_nightwear"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec29"
+            },
+            "name": "vest",
+            "marketplace_id": "vest",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "vest",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "vest"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2a"
+            },
+            "name": "one_piece_underwear",
+            "marketplace_id": "one_piece_underwear",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "one_piece_underwear",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "one_piece_underwear"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2b"
+            },
+            "name": "other_accessoires",
+            "marketplace_id": "other_accessoires",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "other_accessoires",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "other_accessoires"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2c"
+            },
+            "name": "bikini_combination",
+            "marketplace_id": "bikini_combination",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bikini_combination",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bikini_combination"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2d"
+            },
+            "name": "boots",
+            "marketplace_id": "boots",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "boots",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "boots"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2e"
+            },
+            "name": "protector",
+            "marketplace_id": "protector",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "protector",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "protector"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec2f"
+            },
+            "name": "pumps",
+            "marketplace_id": "pumps",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "pumps",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "pumps"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec30"
+            },
+            "name": "bra",
+            "marketplace_id": "bra",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "bra",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "bra"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec31"
+            },
+            "name": "case",
+            "marketplace_id": "case",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "case",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "case"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec32"
+            },
+            "name": "coat",
+            "marketplace_id": "coat",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "coat",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "coat"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec33"
+            },
+            "name": "corsage",
+            "marketplace_id": "corsage",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "corsage",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "corsage"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec34"
+            },
+            "name": "electronic_tools",
+            "marketplace_id": "electronic_tools",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "electronic_tools",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "electronic_tools"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec35"
+            },
+            "name": "eye_cosmetic",
+            "marketplace_id": "eye_cosmetic",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "eye_cosmetic",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "eye_cosmetic"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec36"
+            },
+            "name": "fitness",
+            "marketplace_id": "fitness",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "fitness",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "fitness"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec37"
+            },
+            "name": "glasses",
+            "marketplace_id": "glasses",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "glasses",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "glasses"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec38"
+            },
+            "name": "jacket",
+            "marketplace_id": "jacket",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "jacket",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "jacket"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec39"
+            },
+            "name": "sandals",
+            "marketplace_id": "sandals",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "sandals",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "sandals"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3a"
+            },
+            "name": "kitchen",
+            "marketplace_id": "kitchen",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "kitchen",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "kitchen"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3b"
+            },
+            "name": "living",
+            "marketplace_id": "living",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "living",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "living"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3c"
+            },
+            "name": "low_shoe",
+            "marketplace_id": "low_shoe",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "low_shoe",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "low_shoe"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3d"
+            },
+            "name": "nightdress",
+            "marketplace_id": "nightdress",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "nightdress",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "nightdress"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3e"
+            },
+            "name": "night_shirt",
+            "marketplace_id": "night_shirt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "night_shirt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "night_shirt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec3f"
+            },
+            "name": "sets_and_palettes",
+            "marketplace_id": "sets_and_palettes",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "sets_and_palettes",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "sets_and_palettes"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec40"
+            },
+            "name": "night_trouser",
+            "marketplace_id": "night_trouser",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "night_trouser",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "night_trouser"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec41"
+            },
+            "name": "shoe_accessoires",
+            "marketplace_id": "shoe_accessoires",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "shoe_accessoires",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "shoe_accessoires"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec42"
+            },
+            "name": "one_piece_suit",
+            "marketplace_id": "one_piece_suit",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "one_piece_suit",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "one_piece_suit"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec43"
+            },
+            "name": "ski",
+            "marketplace_id": "ski",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "ski",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "ski"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec44"
+            },
+            "name": "skirt",
+            "marketplace_id": "skirt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "skirt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "skirt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec45"
+            },
+            "name": "other_equipment",
+            "marketplace_id": "other_equipment",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "other_equipment",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "other_equipment"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec46"
+            },
+            "name": "sneaker",
+            "marketplace_id": "sneaker",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "sneaker",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "sneaker"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec47"
+            },
+            "name": "pullover",
+            "marketplace_id": "pullover",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "pullover",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "pullover"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec48"
+            },
+            "name": "racket",
+            "marketplace_id": "racket",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "racket",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "racket"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec49"
+            },
+            "name": "scarf",
+            "marketplace_id": "scarf",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "scarf",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "scarf"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4a"
+            },
+            "name": "shave",
+            "marketplace_id": "shave",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "shave",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "shave"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4b"
+            },
+            "name": "stocking",
+            "marketplace_id": "stocking",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "stocking",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "stocking"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4c"
+            },
+            "name": "suit_accessoires",
+            "marketplace_id": "suit_accessoires",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "suit_accessoires",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "suit_accessoires"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4d"
+            },
+            "name": "shirt",
+            "marketplace_id": "shirt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "shirt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "shirt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4e"
+            },
+            "name": "skates",
+            "marketplace_id": "skates",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "skates",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "skates"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec4f"
+            },
+            "name": "skincare",
+            "marketplace_id": "skincare",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "skincare",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "skincare"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec50"
+            },
+            "name": "sleeping_bag",
+            "marketplace_id": "sleeping_bag",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "sleeping_bag",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "sleeping_bag"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec51"
+            },
+            "name": "sun",
+            "marketplace_id": "sun",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "sun",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "sun"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec52"
+            },
+            "name": "system",
+            "marketplace_id": "system",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "system",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "system"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec53"
+            },
+            "name": "tent",
+            "marketplace_id": "tent",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "tent",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "tent"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec54"
+            },
+            "name": "tights",
+            "marketplace_id": "tights",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "tights",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "tights"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec55"
+            },
+            "name": "toys",
+            "marketplace_id": "toys",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "toys",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "toys"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec56"
+            },
+            "name": "travel_equipment",
+            "marketplace_id": "travel_equipment",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "travel_equipment",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "travel_equipment"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec57"
+            },
+            "name": "trouser",
+            "marketplace_id": "trouser",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "trouser",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "trouser"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec58"
+            },
+            "name": "t_shirt_top",
+            "marketplace_id": "t_shirt_top",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "t_shirt_top",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "t_shirt_top"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec59"
+            },
+            "name": "umbrella",
+            "marketplace_id": "umbrella",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "umbrella",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "umbrella"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec5a"
+            },
+            "name": "underpant",
+            "marketplace_id": "underpant",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "underpant",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "underpant"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec5b"
+            },
+            "name": "undershirt",
+            "marketplace_id": "undershirt",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "undershirt",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "undershirt"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec5c"
+            },
+            "name": "underwear_combination",
+            "marketplace_id": "underwear_combination",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "underwear_combination",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "underwear_combination"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec5d"
+            },
+            "name": "wallet",
+            "marketplace_id": "wallet",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "wallet",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "wallet"
+        },
+        {
+            "_id": {
+                "$oid": "605d834e922b2b579b7aec5e"
+            },
+            "name": "watch",
+            "marketplace_id": "watch",
+            "marketplace_parent_id": "0",
+            "marketplace": "zalando",
+            "full_path": "watch",
+            "level": 0,
+            "parent_id": 0,
+            "custom_category_path": "watch"
+        }
+    ]
